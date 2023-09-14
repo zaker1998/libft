@@ -6,17 +6,17 @@
 /*   By: mdussali <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 17:21:09 by mdussali          #+#    #+#             */
-/*   Updated: 2023/09/12 17:21:10 by mdussali         ###   ########.fr       */
+/*   Updated: 2023/09/14 12:48:22 by mdussali         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void    ft_putendl_fd(char *s, int fd)
+void	ft_putendl_fd(char *s, int fd)
 {
-    if (s)
-    {
-    ft_putstr_fd(s, fd);
-    write(fd, "\n", 1);
-    }
+	if (s)
+	{
+		ft_putstr_fd(s, fd);
+		write(fd, "\n", 1);
+	}
 }
